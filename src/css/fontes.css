@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'ssf4';
+  src: url('../fontes/SSF4_ABUKET.woff'); 
+}
+
+@font-face {
+  font-family: 'command';
+  src: url('../fontes/PILOT_COMMAND.otf');
+}
+
+@font-face {
+  font-family: 'Marvel Regular';
+  src: url('../fontes/Marvel-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Korinna';
+  src: url('../fontes/ITC\ Korinna\ Heavy\ Regular.otf');
+}

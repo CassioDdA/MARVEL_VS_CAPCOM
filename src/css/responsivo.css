@@ -1,0 +1,49 @@
+@media screen and (max-width: 1249px) {
+.character-selection .big-character img {
+    display: none;
+  }
+
+  .character-selection .big-character .name {
+    display: none;
+  }
+
+  .character-selection {
+    justify-content: center;
+  }
+
+  .character-selection .big-character {
+    width: auto;
+    height: auto;
+    margin: 1vw;
+    text-align: center;
+  }
+
+	.character-selection .big-character .title {
+		position: absolute;
+		top: -303px;
+		left: 180px;
+		transform: translateX(-50%);
+		padding: 5px 10px;
+		font-family: 'Marvel Regular';
+	}
+
+	.character-selection .big-character.player-2 .capcom-title{
+		position: absolute;
+		top: -300px;
+		right: -200px;
+		transform: translateX(-50%);
+		padding: 5px 10px;
+		font-family: 'Marvel Regular';
+	}
+
+}
+
+@media screen and (max-width: 615px) {
+  .character-selection .big-character .title {
+    display: none;
+  }
+
+  .character-selection .big-character.player-2 .capcom-title {
+    display: none;
+  }
+}

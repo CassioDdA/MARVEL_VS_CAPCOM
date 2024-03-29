@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="./src/css/variaveis.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/fontes.css">    
+    <link rel="stylesheet" href="./src/css/animacoes.css">
+		<link rel="stylesheet" href="./src/css/style.css">       
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+		<script src="/src/js/ind2.js" defer></script>
+
+    <title>Marvel vs Capcom</title>
+</head>
+<body>
+    <main>
+
+			<audio id="audioPlayer">
+				<source src="src/audio/ps5-selection-button.mp3" type="audio/mp3">
+				Seu navegador não suporta a reprodução de áudio.
+			</audio>
+			
+      
+        <header class="header">
+            <h1 class="title">VS</h1>
+        </header>
+
+				<div class="character-selection">
+					<div class="big-character player-1">
+						<div class="title">
+							<h2>MARVEL</h2>
+						</div>
+						<img src="/src/img/Marvel png/Black-Panther.png" alt="" id="p1">
+						<div class="name">
+							<h2  id="name-1p">Black Panther</h2>
+						</div>
+					</div>	
+
+					<ul class="list-of-characters">
+
+						<li class="character player-1 selected" id="black-panther" data-name="Black Panther" data-audio="src/audio/Black-Panther.mp3">
+							<span class="tag">1P</span>
+							<span class="tag">2P</span>
+							<img src="src/img/Marvel png/Black-Panther-1.jpg" alt="">
+						</li>
+			
+						<li class="character" id="blade" data-name="Blade" data-audio="src/audio/Blade.mp3">
+							<span class="tag">1P</span>
+							<span class="tag">2P</span>
+							<img src="src/img/Marvel png/Blade-1.jpg" alt="">
+						</li>
+			
+						<li class="character" id="akuma" data-name="Akuma" data-audio="src/audio/Akuma-i-am-akuma.mp3">
+							<span class="tag">1P</span>
+							<span class="tag">2P</span>
+							<img src="src/img/Capcom png/Akuma-1.jpg" alt="">
+						</li>
+			
+						<li class="character player-2 selected" id="ryu" data-name="Ryu" data-audio="src/audio/ryu-shinku-hadoken.mp3">
+							<span class="tag">1P</span>
+							<span class="tag">2P</span>
+							<img src="src/img/Capcom png/Ryu-1.jpg" alt="">
+						</li>
+			
+						<li class="character" id="captain-america" data-name="Captain America" data-audio="src/audio/captain-america.mp3">
+							<span class="tag">1P</span>
+							<span class="tag">2P</span>
+							<img src="src/img/Marvel png/Captain-America-1.jpg" alt="">
+						</li>
+			
+						<li class="character" id="deadpool" data-name="Deadpool" data-audio="src/audio/DeadPool.mp3">
+							<span class="tag">1P</span>
+							<span class="tag">2P</span>
+							<img src="src/img/Marvel png/Deadpool-1.jpg" alt="">
+						</li>
+
+						<li class="character" id="albert-wesker" data-name="Albert Wesker" data-audio="src/audio/wesker_5vhE0m5.mp3">
+							<span class="tag">1P</span>
+							<span class="tag">2P</span>
+							<img src="src/img/Capcom png/Albert-wesker-1.jpg" alt="">
+						</li>
+
+						<li class="character" id="leon" data-name="Leon" data-audio="src/audio/Re4.mp3">
+							<span class="tag">1P</span>
+							<span class="tag">2P</span>
+							<img src="src/img/Capcom png/Leon-1.jpg" alt="">
+						</li>
+
+						<li class="character" id="doctor-stranger" data-name="Doctor Stranger" data-audio="src/audio/Doctor-Stranger.mp3">
+							<span class="tag">1P</span>
+							<span class="tag">2P</span>
+							<img src="src/img/Marvel png/Doctor-Stranger-1.jpg" alt="">
+						</li>
+
+						<li class="character" id="ghost-rider" data-name="Ghost Rider" data-audio="src/audio/Ghost-rider.mp3">
+							<span class="tag">1P</span>
+							<span class="tag">2P</span>
+							<img src="src/img/Marvel png/Ghost-rider-1.jpg" alt="">
+						</li>
+
+						<li class="character" id="arthur" data-name="Arthur" data-audio="src/audio/Arthur-quack-quack_cPAoVLe.mp3">
+							<span class="tag">1P</span>
+							<span class="tag">2P</span>
+							<img src="src/img/Capcom png/Arthur-1.jpg" alt="">
+						</li>
+
+						<li class="character" id="dante" data-name="Dante" data-audio="src/audio/Dante-jackpot-2.mp3">
+							<span class="tag">1P</span>
+							<span class="tag">2P</span>
+							<img src="src/img/Capcom png/Dante-1.jpg" alt="">
+						</li>
+
+						<li class="character" id="spider-man" data-name="Spider Man" data-audio="src/audio/spider-man-classic-old.mp3">
+							<span class="tag">1P</span>
+							<span class="tag">2P</span>
+							<img src="src/img/Marvel png/Spider-Man-1.jpg" alt="">
+						</li>
+						
+						<li class="character" id="vergil" data-name="Vergil" data-audio="src/audio/Vergil-you-shall-die.mp3">
+							<span class="tag">1P</span>
+							<span class="tag">2P</span>
+							<img src="src/img/Capcom png/Vergil-1.jpg" alt="">
+						</li>
+			
+					</ul>
+			
+					<div class="big-character player-2">
+						<div class="capcom-title">
+							<h2>CAPCOM</h2>
+						</div>
+						<img src="/src/img/Capcom png/Ryu.png" alt="" id="p2">
+						<div class="name">
+							<h2  id="name-2p">Ryu</h2>
+						</div>
+					</div>
+
+				</div>				
+			
+    </main>
+
+</body>
+</html>
